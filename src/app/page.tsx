@@ -1,7 +1,9 @@
-import HistoryOne from "@/components/\bhistoryone";
+import HistoryOne from "@/components/historyOne";
 import Contact from "@/components/contact";
 import HistoryTwo from "@/components/historyTwo";
 import Intro from "@/components/intro";
+import Stacks from "@/components/stacks";
+import Project from "@/components/project";
 
 export default function Home() {
     return (
@@ -10,6 +12,8 @@ export default function Home() {
             <Contact />
             <HistoryOne />
             <HistoryTwo />
+            <Stacks />
+            <Project />
         </div>
     );
 }

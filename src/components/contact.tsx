@@ -2,18 +2,37 @@ import React from "react";
 
 const Contact = () => {
     return (
-        <div className="bg-white h-screen relative">
+        <div className="bg-white h-[100vh] relative">
             <div className="text-6xl font-bold flex items-center flex-col py-15 gap-10">
                 CONTACT ME
                 <div className="bg-black w-20 h-1 " />
-                <div className="flex gap-20">
+                <div className="flex gap-20 items-center">
                     <a href="https://github.com/bbqcream">
-                        <img src="github.svg" className="cursor-pointer" />
+                        <img
+                            src="github.svg"
+                            className="cursor-pointer transition-all duration-300 ease-in-out hover:w-[6rem] hover:shadow-lg hover:shadow-gray backdrop-blur-lg"
+                            draggable="false"
+                        />
                     </a>
                     <a href="https://thunder-bream-d76.notion.site/efaafc4c2f0243048b7cf2b29e54ed24?pvs=4">
-                        <img src="notion.svg" className="cursor-pointer" />
+                        <img
+                            src="notion.svg"
+                            draggable="false"
+                            className="cursor-pointer transition-all duration-300 ease-in-out hover:w-[6rem] hover:shadow-lg hover:shadow-gray backdrop-blur-lg"
+                        />
                     </a>
-                    <img src="gmail.svg" className="cursor-pointer" />
+                    <a href="https://www.instagram.com/sincerxly_/">
+                        <img
+                            src="instagram.svg"
+                            draggable="false"
+                            className="cursor-pointer transition-all duration-300 ease-in-out hover:w-[6rem] hover:shadow-lg hover:shadow-gray backdrop-blur-lg"
+                        />
+                    </a>
+                    <img
+                        src="gmail.svg"
+                        draggable="false"
+                        className="cursor-pointer transition-all duration-300 ease-in-out hover:w-[6rem] hover:shadow-lg hover:shadow-gray backdrop-blur-lg"
+                    />
                 </div>
             </div>
             <div className="w-[100%] flex justify-center text-center flex-col items-center gap-5 text-2xl font-medium">

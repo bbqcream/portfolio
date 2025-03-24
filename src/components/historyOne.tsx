@@ -2,10 +2,16 @@ import React from "react";
 
 const HistoryOne = () => {
     return (
-        <div className="w-screen h-screen bg-black relative text-white border-b-white">
+        <div className="w-screen h-[100vh] bg-black relative text-white border-b-white">
+            <img className="absolute top-[5%] left-[5%]" src="angle.svg" />
+            <img
+                className="absolute top-[5%] right-[5%] transform rotate-90"
+                src="angle.svg"
+            />
             <div className="absolute top-[5%] left-[10%]">
-                <div className="text-7xl font-bold">활동 경력</div>
-                <div className="text-3xl font-medium py-4">2024</div>
+                <div className="text-7xl font-bold pt-15">ACTICITIES</div>
+                <div className="bg-white w-20 h-1 mt-2" />
+                <div className="text-3xl font-semibold py-4">2024</div>
                 <div className="text-1xl font-light flex flex-col gap-1">
                     <div>2024.3.4 | 대구소프트웨어마이스터고등학교 입학</div>
                     <div>2024.3.14 ~ 2025.2.11 | 교내 동아리 활동 (DUCAMI)</div>
