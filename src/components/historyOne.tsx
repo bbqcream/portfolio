@@ -3,16 +3,23 @@ import React from "react";
 const HistoryOne = () => {
     return (
         <div className="w-screen h-[100vh] bg-black relative text-white border-b-white">
-            <img className="absolute top-[5%] left-[5%]" src="angle.svg" />
             <img
-                className="absolute top-[5%] right-[5%] transform rotate-90"
+                className="absolute top-[5%] left-[5%] md:w-20 w-10"
+                src="angle.svg"
+            />
+            <img
+                className="absolute top-[5%] right-[5%] transform rotate-90 md:w-20 w-10"
                 src="angle.svg"
             />
             <div className="absolute top-[5%] left-[10%]">
-                <div className="text-7xl font-bold pt-15">ACTICITIES</div>
-                <div className="bg-white w-20 h-1 mt-2" />
-                <div className="text-3xl font-semibold py-4">2024</div>
-                <div className="text-1xl font-light flex flex-col gap-1">
+                <div className="text-4xl md:text-6xl font-bold pt-15">
+                    ACTICITIES
+                </div>
+                <div className="bg-white w-15 md:w-20 h-0.5 md:h-1 mt-8" />
+                <div className="text-2xl md:text-3xl font-semibold py-6">
+                    2024
+                </div>
+                <div className="text-[0.75rem] md:text-[1rem] font-light flex flex-col gap-2 md:gap-4">
                     <div>2024.3.4 | 대구소프트웨어마이스터고등학교 입학</div>
                     <div>2024.3.14 ~ 2025.2.11 | 교내 동아리 활동 (DUCAMI)</div>
                     <div>2024.3 ~ | 교내 동아리 활동 (8bit)</div>

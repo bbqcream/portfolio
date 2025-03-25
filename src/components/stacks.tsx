@@ -4,9 +4,9 @@ const Stacks = () => {
     return (
         <div className="bg-white h-[100vh] relative">
             <div className="items-center flex w-[100%] justify-center flex-col py-15">
-                <div className="text-6xl font-bold flex items-center flex-col py-15 gap-10">
+                <div className="text-4xl md:text-6xl font-bold flex items-center flex-col py-15 gap-10">
                     STACKS
-                    <div className="bg-black w-20 h-1 " />
+                    <div className="bg-black w-15 md:w-20 h-1" />
                 </div>
                 <div className="flex">
                     <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=white" />
@@ -25,7 +25,7 @@ const Stacks = () => {
                     <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
                     <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
                 </div>
-                <div className="w-[100%] text-center text-2xl font-medium pt-10">
+                <div className="w-[100%] text-center text-1xl md:text-2xl font-medium pt-10">
                     <span className="font-bold">FRONT-END</span>을 집중적으로
                     공부했으며,
                     <br />

@@ -11,7 +11,117 @@
 }
 
 body {
+    scroll-behavior: smooth;
+}
+
+body {
     background: var(--background);
     color: var(--foreground);
     font-family: Arial, Helvetica, sans-serif;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes top {
+    from {
+        top: -5%;
+    }
+    to {
+        top: 5%;
+    }
+}
+
+@keyframes circle {
+    from {
+        top: -100%;
+    }
+    to {
+        top: -30%;
+    }
+}
+
+@keyframes plus {
+    from {
+        bottom: 0%;
+    }
+    to {
+        bottom: 10%;
+    }
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.introText {
+    font-size: 3.75rem;
+    line-height: 4.5rem;
+    font-weight: light;
+    animation: fadein 1s;
+    @media (max-width: 768px) {
+        font-size: 2.25rem;
+        line-height: 3.5rem;
+    }
+}
+
+@keyframes bottom {
+    from {
+        top: -100%;
+    }
+    to {
+        top: -30%;
+    }
+}
+
+.nav {
+    width: 100%;
+    position: absolute;
+    top: 5%;
+    font-size: 1rem;
+    font-weight: light;
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 2rem;
+    animation: top 1s;
+    @media (max-width: 768px) {
+        font-size: 0.75rem;
+        padding: 0rem 1rem;
+    }
+}
+
+.circle {
+    position: absolute;
+    top: -30%;
+    right: -15%;
+    width: 50%;
+    animation: circle 1s ease-out, rotate 15s linear infinite;
+    object-fit: cover;
+    overflow: hidden;
+    @media (max-width: 768px) {
+        display: none;
+    }
+}
+
+.plus {
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    width: 10%;
+    display: flex;
+    animation: plus 1s, fadein 1s;
+    @media (max-width: 768px) {
+        display: none;
+    }
 }

@@ -3,14 +3,14 @@ import React from "react";
 const Contact = () => {
     return (
         <div className="bg-white h-[100vh] relative">
-            <div className="text-6xl font-bold flex items-center flex-col py-15 gap-10">
+            <div className="text-4xl md:text-6xl font-bold flex items-center flex-col py-15 gap-5 md:gap-10">
                 CONTACT ME
-                <div className="bg-black w-20 h-1 " />
-                <div className="flex gap-20 items-center">
+                <div className="bg-black w-15 md:w-20 h-1" />
+                <div className="flex gap-10 md:gap-20 items-center">
                     <a href="https://github.com/bbqcream">
                         <img
                             src="github.svg"
-                            className="cursor-pointer transition-all duration-300 ease-in-out hover:w-[6rem] hover:shadow-lg hover:shadow-gray backdrop-blur-lg"
+                            className="cursor-pointer transition-all duration-300 ease-in-out w-12 md:w-20 hover:shadow-lg"
                             draggable="false"
                         />
                     </a>
@@ -18,27 +18,29 @@ const Contact = () => {
                         <img
                             src="notion.svg"
                             draggable="false"
-                            className="cursor-pointer transition-all duration-300 ease-in-out hover:w-[6rem] hover:shadow-lg hover:shadow-gray backdrop-blur-lg"
+                            className="cursor-pointer transition-all duration-300 ease-in-out w-12 md:w-20 hover:shadow-lg"
                         />
                     </a>
                     <a href="https://www.instagram.com/sincerxly_/">
                         <img
                             src="instagram.svg"
                             draggable="false"
-                            className="cursor-pointer transition-all duration-300 ease-in-out hover:w-[6rem] hover:shadow-lg hover:shadow-gray backdrop-blur-lg"
+                            className="cursor-pointer transition-all duration-300 ease-in-out w-12 md:w-20 hover:shadow-lg"
                         />
                     </a>
-                    <img
-                        src="gmail.svg"
-                        draggable="false"
-                        className="cursor-pointer transition-all duration-300 ease-in-out hover:w-[6rem] hover:shadow-lg hover:shadow-gray backdrop-blur-lg"
-                    />
+                    <a href="mailto:imground11@gmail.com" target="_blank">
+                        <img
+                            src="gmail.svg"
+                            draggable="false"
+                            className="cursor-pointer transition-all duration-300 ease-in-out w-12 md:w-20 hover:shadow-lg "
+                        />
+                    </a>
                 </div>
             </div>
-            <div className="w-[100%] flex justify-center text-center flex-col items-center gap-5 text-2xl font-medium">
-                <div className="bg-black w-5 h-5 border rounded-[50px]" />
-                <div className="bg-black w-5 h-5 border rounded-[50px]" />
-                <div className="bg-black w-5 h-5 border rounded-[50px]" />
+            <div className="w-[100%] flex justify-center text-center flex-col items-center gap-5 px-5 md:p-0 text-1xl md:text-2xl font-medium">
+                <div className="bg-black w-3 h-3 md:w-5 md:h-5 border rounded-full" />
+                <div className="bg-black w-3 h-3 md:w-5 md:h-5 border rounded-full" />
+                <div className="bg-black w-3 h-3 md:w-5 md:h-5 border rounded-full" />
                 <div className="pt-10">
                     <span className="font-bold">언제나 끈질긴 노력</span>
                     으로 결과물을 완성해 내는 개발자입니다.
@@ -52,7 +54,7 @@ const Contact = () => {
                     <span className="font-bold">창체동아리 ALT</span>에서 활동
                     중입니다.
                 </div>
-                <div>
+                <div className="px-10">
                     <span className="font-bold">언제나 프로젝트 마감 기한</span>
                     을 지키고 <span className="font-bold">완성도를 최대로</span>{" "}
                     끌어올려{" "}
