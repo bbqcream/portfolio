@@ -125,3 +125,25 @@ body {
         display: none;
     }
 }
+
+.box {
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    padding: 1.25rem;
+    border-radius: 1rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.box:hover {
+    box-shadow: 0 10px 20px gray;
+    padding: 1.5rem;
+}
+
+@media (max-width: 768px) {
+    .box {
+        gap: 0.75rem;
+    }
+}
