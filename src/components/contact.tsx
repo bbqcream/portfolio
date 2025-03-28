@@ -2,11 +2,11 @@ import React from "react";
 
 const Contact = () => {
     return (
-        <div className="bg-white h-[100vh] relative">
+        <div className="bg-white min-h-[100vh] min-w-[100vw] relative">
             <div className="text-4xl md:text-6xl font-bold flex items-center flex-col py-15 gap-5 md:gap-10">
                 CONTACT ME
                 <div className="bg-black w-15 md:w-20 h-1" />
-                <div className="flex gap-10 md:gap-20 items-center">
+                <div className="boxWrap">
                     <a href="https://github.com/bbqcream">
                         <img
                             src="github.svg"

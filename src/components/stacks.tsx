@@ -2,7 +2,7 @@ import React from "react";
 
 const Stacks = () => {
     return (
-        <div className="bg-white h-[100vh] relative">
+        <div className="bg-white min-h-[100vh] min-w-[100vw]  relative">
             <div className="items-center flex w-[100%] justify-center flex-col py-15">
                 <div className="text-4xl md:text-6xl font-bold flex items-center flex-col py-15 gap-10">
                     STACKS

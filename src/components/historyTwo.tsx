@@ -2,7 +2,7 @@ import React from "react";
 
 const HistoryTwo = () => {
     return (
-        <div className="w-screen h-[100vh] bg-black relative text-white">
+        <div className="min-h-[100vh] min-w-[100vw]  bg-black relative text-white">
             <div className="absolute top-[2%] right-[10%] text-right">
                 <div className="text-2xl md:text-3xl font-semibold pb-4">
                     2025

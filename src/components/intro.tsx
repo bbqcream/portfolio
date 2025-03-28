@@ -2,7 +2,7 @@ import React from "react";
 
 const Intro = () => {
     return (
-        <div className="mw-[100vw] overflow-hidden w-screen h-[100vh] bg-black relative text-white">
+        <div className="min-h-[100vh] min-w-[100vw] overflow-hidden bg-black relative text-white">
             <div className="nav">
                 <div>Front-end</div>
                 <div>PORTFOLIO</div>

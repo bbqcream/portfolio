@@ -4,6 +4,7 @@ import HistoryTwo from "@/components/historyTwo";
 import Intro from "@/components/intro";
 import Stacks from "@/components/stacks";
 import Project from "@/components/project";
+import Beep from "./pages/beep";
 
 export default function Home() {
     return (
@@ -14,6 +15,7 @@ export default function Home() {
             <HistoryTwo />
             <Stacks />
             <Project />
+            <Beep />
         </div>
     );
 }

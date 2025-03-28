@@ -3,7 +3,7 @@ import ProjectBox from "./projectBox";
 
 const Project = () => {
     return (
-        <div className="w-screen h-[100vh] bg-black relative text-white border-b-white">
+        <div className="min-h-[100vh] min-w-[100vw]  bg-black relative text-white border-b-white">
             <div className="absolute top-[5%] left-[10%]">
                 <div className="text-4xl md:text-6xl font-bold pt-15">
                     MAIN PROJECTS

@@ -147,3 +147,22 @@ body {
         gap: 0.75rem;
     }
 }
+
+@keyframes boxWrap {
+    from {
+        margin-top: 3rem;
+    }
+    to {
+        margin-bottom: 0rem;
+    }
+}
+
+.boxWrap {
+    gap: 5rem;
+    display: flex;
+    align-items: center;
+    animation: fadein 1s, boxWrap 1s ease-in-out;
+    @media (max-width: 768px) {
+        gap: 2.5rem;
+    }
+}
