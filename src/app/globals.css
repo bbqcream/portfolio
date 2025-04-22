@@ -68,10 +68,22 @@ body {
 .introText {
     font-size: 3.75rem;
     line-height: 4.5rem;
-    font-weight: light;
+    font-weight: 400;
     animation: fadein 1s;
     @media (max-width: 768px) {
         font-size: 2.25rem;
+        line-height: 3.5rem;
+    }
+    @media (max-width: 455px) {
+    font-size: 2rem;
+    line-height: 3.5rem;
+}
+    @media (max-width: 405px) {
+        font-size: 1.6rem;
+        line-height: 3.5rem;
+    }
+    @media (max-width: 324px) {
+        font-size: 1.2rem;
         line-height: 3.5rem;
     }
 }

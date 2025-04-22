@@ -5,26 +5,21 @@ const Stacks = () => {
         <div className="bg-white min-h-[100vh] min-w-[100vw]  relative">
             <div className="items-center flex w-[100%] justify-center flex-col py-15">
                 <div className="text-4xl md:text-6xl font-bold flex items-center flex-col py-15 gap-10">
-                    STACKS
+                    MAIN STACKS
                     <div className="bg-black w-15 md:w-20 h-1" />
                 </div>
-                <div className="flex">
-                    <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=white" />
-                    <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=CSS3&logoColor=white" />
-                    <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white" />
-                    <img src="https://img.shields.io/badge/typescript-3178C6?style=for-the-badge&logo=TypeScript&logoColor=white" />
+                <div className="flex flex-col md:flex-row gap-3 md:gap-3">
+                <div className="flex items-center gap-2 md:gap-3">
+                    <img src="react.png" className="w-20 md:w-30" />
+                    <img src="ts.png" className="w-20 md:w-30" />
+                    <img src="rn.png" className="w-20 md:w-30" />
                 </div>
-                <div className="flex">
-                    <img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=React&logoColor=white" />
-                    <img src="https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
-                    <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?logo=tailwind-css&logoColor=white&style=for-the-badge" />
+                    <div className="flex items-center gap-1 md:gap-3">
+                    <img src="styled.png" className="w-20 md:w-30" />
+                    <img src="tw.png" className="w-20 md:w-30" />
+                    <img src="next.png"className="w-20 md:w-30" />
                 </div>
-                <div className="flex">
-                    <img src="https://img.shields.io/badge/Styled_Components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white" />
-                    <img src="https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white" />
-                    <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
-                    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-                </div>
+            </div>
                 <div className="w-[100%] text-center text-1xl md:text-2xl font-medium pt-10">
                     <span className="font-bold">FRONT-END</span>을 집중적으로
                     공부했으며,

@@ -9,7 +9,8 @@ const Intro = () => {
                 <div>Kim Seonghan</div>
             </div>
             <img className="circle" src="circle.svg" draggable="false" />
-            <div className="absolute top-[40%] left-[15%]">
+            <div className="absolute top-[40%] left-1/2 -translate-x-1/2
+            text-center md:left-[15%] md:translate-x-0 md:text-left">
                 <div className="introText">
                     꾸준히 <span className="font-bold">노력</span>하며
                     <br />
