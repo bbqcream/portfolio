@@ -1,5 +1,3 @@
-import React from "react";
-
 const Stacks = () => {
   return (
     <div className="bg-white min-h-[100vh] min-w-[100vw]  relative">

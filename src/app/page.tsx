@@ -7,7 +7,7 @@ import Project from "@/components/project";
 
 export default function Home() {
   return (
-    <div className="scroll-smooth mw-[100vw] h-[100vh]">
+    <div className="scroll-smooth mw-[100vw] h-[100vh] bg-black">
       <Intro />
       <Contact />
       <HistoryOne />

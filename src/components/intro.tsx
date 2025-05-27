@@ -1,5 +1,3 @@
-import React from "react";
-
 const Intro = () => {
   return (
     <div className="min-h-[100vh] min-w-[100vw] overflow-hidden bg-black relative text-white">

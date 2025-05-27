@@ -1,5 +1,3 @@
-import React from "react";
-
 const Contact = () => {
   return (
     <div className="bg-white min-h-[100vh] min-w-[100vw] relative">

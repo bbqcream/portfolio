@@ -1,5 +1,3 @@
-import React from "react";
-
 const HistoryOne = () => {
     return (
         <div className="min-h-[100vh] min-w-[100vw]  bg-black relative text-white border-b-white">
